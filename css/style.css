@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    /*background: rgb(45,111,73);
+    background: linear-gradient(180deg, rgba(45,111,73,1) 0%, rgba(0,13,0,1) 59%); */
+    background-image: url(/img/fundo2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+}
+
+.avatar {
+    width: 130px;    
+}
+
+h1 {
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 100;
+    font-size: 24px;
+    margin-bottom: 2px;
+    letter-spacing: 2px;
+    text-shadow: 0 0 5px rgb(244, 4, 4);
+}
+
+h2 {
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-shadow: 0 0 5px rgb(255, 2, 2);
+}
+
+.profile {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 20px 0;
+}
+
+.social img {
+    width: 45px;
+    box-shadow: 0 0 10px rgb(255, 0, 0);
+    border-radius: 50%;
+}
+
+.links-list {
+    list-style: none;
+}
+
+.links-list li {
+    padding: 10px 20px;
+
+}
+
+.links-list li a {    
+    display: block;
+    background: rgba(255, 255, 255, 0.439);
+    padding: 15px 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgb(255, 0, 0);
+    text-decoration: none;
+    color: rgb(17, 239, 221);
+    text-shadow: 0 0 5px rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.links-list li a span {
+    color: rgb(255, 255, 255);
+    display: block;
+    margin-top: 10px;
+
+}
+
